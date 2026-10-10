@@ -1,0 +1,14 @@
+{
+	"name": "await-loop",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"test": "xo --fix '**/*.tsx' && tsc --noEmit",
+		"update": "npm install @await-widget/runtime@latest"
+	},
+	"devDependencies": {
+		"@await-widget/runtime": "^0.0.48",
+		"typescript": "^6.0.3",
+		"xo": "^4.0.0"
+	}
+}
