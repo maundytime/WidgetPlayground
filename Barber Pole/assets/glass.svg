@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 170 170">
+  <defs>
+      <linearGradient id="cylinder-shade">
+        <stop offset="0" stop-color="#17202b" stop-opacity=".52"/>
+        <stop offset=".08" stop-color="#17202b" stop-opacity=".39"/>
+        <stop offset=".18" stop-color="#17202b" stop-opacity=".24"/>
+        <stop offset=".30" stop-color="#17202b" stop-opacity=".10"/>
+        <stop offset=".42" stop-color="#17202b" stop-opacity=".018"/>
+        <stop offset=".50" stop-color="#17202b" stop-opacity="0"/>
+        <stop offset=".58" stop-color="#17202b" stop-opacity=".018"/>
+        <stop offset=".70" stop-color="#17202b" stop-opacity=".10"/>
+        <stop offset=".82" stop-color="#17202b" stop-opacity=".24"/>
+        <stop offset=".92" stop-color="#17202b" stop-opacity=".39"/>
+        <stop offset="1" stop-color="#17202b" stop-opacity=".52"/>
+      </linearGradient>
+      <linearGradient id="glass-sheen">
+        <stop offset="0" stop-color="#cbebff" stop-opacity="0.297"/>
+        <stop offset=".012" stop-color="#e6f7ff" stop-opacity="0.6345"/>
+        <stop offset=".045" stop-color="#86b6d4" stop-opacity="0.135"/>
+        <stop offset=".09" stop-color="#fff" stop-opacity="0"/>
+        <stop offset=".21" stop-color="#fff" stop-opacity="0.135"/>
+        <stop offset=".35" stop-color="#fff" stop-opacity=".04"/>
+        <stop offset=".50" stop-color="#fff" stop-opacity=".09"/>
+        <stop offset=".65" stop-color="#fff" stop-opacity=".04"/>
+        <stop offset=".81" stop-color="#fff" stop-opacity="0"/>
+        <stop offset=".96" stop-color="#c3e2fb" stop-opacity="0.27"/>
+        <stop offset="1" stop-color="#d7efff" stop-opacity="0.54"/>
+      </linearGradient>
+      <linearGradient id="reflection-line" x2="0" y2="1">
+        <stop offset="0" stop-color="#fff" stop-opacity="0.135"/>
+        <stop offset=".12" stop-color="#fff" stop-opacity="0.648"/>
+        <stop offset=".52" stop-color="#fff" stop-opacity="0.486"/>
+        <stop offset=".87" stop-color="#fff" stop-opacity="0.2565"/>
+        <stop offset="1" stop-color="#fff" stop-opacity="0.081"/>
+      </linearGradient>
+      <linearGradient id="reflection-soft" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+        <stop offset=".18" stop-color="#f8fafc" stop-opacity="0.1215"/>
+        <stop offset=".38" stop-color="#f8fafc" stop-opacity="0.243"/>
+        <stop offset=".60" stop-color="#fafcfd" stop-opacity="0.162"/>
+        <stop offset=".83" stop-color="#fff" stop-opacity="0.04725"/>
+        <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+      </linearGradient>
+      <radialGradient id="window-reflection" cx=".58" cy=".25" r=".8">
+        <stop offset="0" stop-color="#f8fafc" stop-opacity=".28"/>
+        <stop offset=".35" stop-color="#f8fafc" stop-opacity=".21"/>
+        <stop offset=".65" stop-color="#fff" stop-opacity=".08"/>
+        <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+      </radialGradient>
+
+  </defs>
+
+        <rect width="170" height="170" fill="url(#cylinder-shade)"/>
+        <rect width="170" height="170" fill="url(#glass-sheen)"/>
+        <rect x="13" width="2.2" height="170" fill="url(#reflection-line)"/>
+        <rect x="22" width="15" height="170" fill="url(#reflection-soft)"/>
+        <path d="M 112 20 L 157 4 V 42 L 112 58 Z M 112 61 L 157 45 V 98 L 112 114 Z" fill="url(#window-reflection)"/>
+
+</svg>
