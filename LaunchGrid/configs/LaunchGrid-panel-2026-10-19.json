@@ -1,0 +1,407 @@
+{
+  "format": "LaunchGrid.config",
+  "formatVersion": 1,
+  "config": {
+    "version": 3,
+    "rows": 3,
+    "columns": [
+      6,
+      6,
+      5,
+      6
+    ],
+    "gap": 4,
+    "padding": 10,
+    "radius": 9,
+    "background": "#f1f0f5",
+    "backgroundOpacity": 0,
+    "foreground": "#22252f",
+    "rowSettings": [
+      {
+        "widthPercent": 100,
+        "gap": 4,
+        "alignment": "center"
+      },
+      {
+        "widthPercent": 100,
+        "gap": 4,
+        "alignment": "center"
+      },
+      {
+        "widthPercent": 100,
+        "gap": 4,
+        "alignment": "center"
+      },
+      {
+        "widthPercent": 100,
+        "gap": 4,
+        "alignment": "center"
+      }
+    ],
+    "cells": [
+      [
+        {
+          "domain": "1",
+          "image": "assets/01-bilibili.png",
+          "title": "bilibili",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "tv.danmaku.bilianime",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "2",
+          "image": "assets/02-payment.png",
+          "title": "快捷指令0",
+          "showText": false,
+          "fit": "fill",
+          "action": "mountedShortcut",
+          "target": "",
+          "multiple": 1,
+          "showImage": true,
+          "shortcutIndex": 0
+        },
+        {
+          "domain": "3",
+          "image": "assets/03-wechat-reading.png",
+          "title": "微信读书",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "com.tencent.weread",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "4",
+          "image": "assets/04-nutstore.png",
+          "title": "坚果云",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "com.jianguopuzi.ios",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "5",
+          "image": "assets/05-notion.png",
+          "title": "Notion",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "notion.id",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "6",
+          "image": "assets/06-settings.png",
+          "title": "设置",
+          "showText": false,
+          "fit": "fill",
+          "action": "scheme",
+          "target": "app-prefs:",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "7",
+          "image": "assets/slot-1-7.svg",
+          "title": "按钮 1-7",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "8",
+          "image": "assets/slot-1-8.svg",
+          "title": "按钮 1-8",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        }
+      ],
+      [
+        {
+          "domain": "1",
+          "image": "assets/01-weibo.png",
+          "title": "新浪微博",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "com.sina.weibo",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "2",
+          "image": "assets/02-doubao.png",
+          "title": "豆包",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "com.bot.doubao",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "3",
+          "image": "assets/03-deepseek.png",
+          "title": "DeepSeek",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "com.deepseek.chat",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "4",
+          "image": "assets/04-chatgpt.png",
+          "title": "ChatGPT",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "com.openai.chat",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "5",
+          "image": "assets/05-shortcuts.png",
+          "title": "快捷指令",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "com.apple.shortcuts",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "6",
+          "image": "assets/06-running.png",
+          "title": "vivo健康",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "com.vivo.health",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "7",
+          "image": "assets/slot-2-7.svg",
+          "title": "按钮 2-7",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "8",
+          "image": "assets/slot-2-8.svg",
+          "title": "按钮 2-8",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        }
+      ],
+      [
+        {
+          "domain": "1",
+          "image": "assets/01-clipboard.png",
+          "title": "快捷指令1",
+          "showText": false,
+          "fit": "fill",
+          "action": "mountedShortcut",
+          "target": "",
+          "multiple": 1,
+          "showImage": true,
+          "shortcutIndex": 1
+        },
+        {
+          "domain": "2",
+          "image": "assets/02-douban-fm.png",
+          "title": "豆瓣FM",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "com.douban.DoubanRadio",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "3",
+          "image": "assets/03-scan.png",
+          "title": "快捷指令3",
+          "showText": false,
+          "fit": "fill",
+          "action": "mountedShortcut",
+          "target": "",
+          "multiple": 1,
+          "showImage": true,
+          "shortcutIndex": 3
+        },
+        {
+          "domain": "4",
+          "image": "assets/04-kimi.png",
+          "title": "Kimi",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "com.moonshot.kimichat",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "5",
+          "image": "assets/05-dayone.png",
+          "title": "Day One",
+          "showText": false,
+          "fit": "fill",
+          "action": "awaitLaunch",
+          "target": "com.bloombuilt.dayone-ios",
+          "multiple": 2,
+          "showImage": true
+        },
+        {
+          "domain": "6",
+          "image": "assets/slot-3-6.svg",
+          "title": "按钮 3-6",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "7",
+          "image": "assets/slot-3-7.svg",
+          "title": "按钮 3-7",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "8",
+          "image": "assets/slot-3-8.svg",
+          "title": "按钮 3-8",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        }
+      ],
+      [
+        {
+          "domain": "1",
+          "image": "assets/slot-4-1.svg",
+          "title": "按钮 4-1",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "2",
+          "image": "assets/slot-4-2.svg",
+          "title": "按钮 4-2",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "3",
+          "image": "assets/slot-4-3.svg",
+          "title": "按钮 4-3",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "4",
+          "image": "assets/slot-4-4.svg",
+          "title": "按钮 4-4",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "5",
+          "image": "assets/slot-4-5.svg",
+          "title": "按钮 4-5",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "6",
+          "image": "assets/slot-4-6.svg",
+          "title": "按钮 4-6",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "7",
+          "image": "assets/slot-4-7.svg",
+          "title": "按钮 4-7",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        },
+        {
+          "domain": "8",
+          "image": "assets/slot-4-8.svg",
+          "title": "按钮 4-8",
+          "showText": false,
+          "fit": "fill",
+          "action": "none",
+          "target": "",
+          "multiple": 1,
+          "showImage": true
+        }
+      ]
+    ]
+  }
+}
